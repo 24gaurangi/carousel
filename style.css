@@ -1,0 +1,31 @@
+.container {
+	width: 1000px;
+	height: 600px;
+	margin: 20px 20px;
+	position: relative;
+	border: 10px solid white;
+	box-shadow: 0px 0px 5px 2px #ccc;
+}
+img {
+	width: 1000px;
+	height: 600px;
+}
+button.btn {
+	background-color: lightgrey;
+	color: black;
+	position: absolute;	
+	height:30px;
+	width:50px;
+	border: 1px none;
+	top: 45%;
+	cursor:pointer;
+}
+.prev {
+	border-radius: 0px 5px 5px 0px;
+}
+.next {
+	margin-left: 950px;
+	border-radius: 5px 0px 0px 5px;
+}
+	
+
